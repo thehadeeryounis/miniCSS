@@ -1,0 +1,195 @@
+<html>
+<head>
+    <link href="grid.css" media="all" rel="stylesheet" type="text/stylesheet" />
+    <style>
+        html {
+            background: #f5f5f5;
+            text-align: center;
+            font-family: monospace;
+        }
+
+        [class*="grid-"] {
+            background: rgba(0,0,0,0.05);
+            margin: 1rem 0;
+        }
+
+        .placeholder {
+            background: rgb(54, 150, 241);
+            line-height: 40px;
+            color: #fff;
+        }
+
+        .placeholder:after {
+            content: "";
+            display: table;
+        }
+
+        .placeholder .placeholder {
+            background: rgba(0,0,0,0.3)
+        }
+
+        h1, h2 {
+            font-family: 'Lobster', cursive;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: #333;
+            text-shadow: 1px 1px 1px #999;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 35px;
+            color: #999;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+            font-weight: 500;
+        }
+
+
+
+    </style>
+</head>
+<body> 
+    <h1>Mini Grid</h1>
+    <h2>Just another minimal responsive grid system</h2>
+    <div class="row">
+        <div class="inner-row">
+            <div class="grid-12">
+                <div class="placeholder">grid-12</div>
+            </div>
+            <div class="grid-6">
+                <div class="placeholder">grid-6</div>
+            </div>
+            <div class="grid-6">
+                <div class="placeholder">grid-6</div>
+            </div>
+            <div class="grid-4">
+                <div class="placeholder">grid-4</div>
+            </div>
+            <div class="grid-4">
+                <div class="placeholder">grid-4</div>
+            </div>
+            <div class="grid-4">
+                <div class="placeholder">grid-4</div>
+            </div>
+            <div class="grid-3">
+                <div class="placeholder">grid-3</div>
+            </div>
+            <div class="grid-3">
+                <div class="placeholder">grid-3</div>
+            </div>
+            <div class="grid-3">
+                <div class="placeholder">grid-3</div>
+            </div>
+            <div class="grid-3">
+                <div class="placeholder">grid-3</div>
+            </div>
+            <div class="grid-2">
+                <div class="placeholder">grid-2</div>
+            </div>
+            <div class="grid-2">
+                <div class="placeholder">grid-2</div>
+            </div>
+            <div class="grid-2">
+                <div class="placeholder">grid-2</div>
+            </div>
+            <div class="grid-2">
+                <div class="placeholder">grid-2</div>
+            </div>
+            <div class="grid-2">
+                <div class="placeholder">grid-2</div>
+            </div>
+            <div class="grid-2">
+                <div class="placeholder">grid-2</div>
+            </div>
+            <div class="grid-1">
+                <div class="placeholder">grid-1</div>
+            </div>
+            <div class="grid-1">
+                <div class="placeholder">grid-1</div>
+            </div>
+            <div class="grid-1">
+                <div class="placeholder">grid-1</div>
+            </div>
+            <div class="grid-1">
+                <div class="placeholder">grid-1</div>
+            </div>
+            <div class="grid-1">
+                <div class="placeholder">grid-1</div>
+            </div>
+            <div class="grid-1">
+                <div class="placeholder">grid-1</div>
+            </div>
+            <div class="grid-1">
+                <div class="placeholder">grid-1</div>
+            </div>
+            <div class="grid-1">
+                <div class="placeholder">grid-1</div>
+            </div>
+            <div class="grid-1">
+                <div class="placeholder">grid-1</div>
+            </div>
+            <div class="grid-1">
+                <div class="placeholder">grid-1</div>
+            </div>
+            <div class="grid-1">
+                <div class="placeholder">grid-1</div>
+            </div>
+            <div class="grid-1">
+                <div class="placeholder">grid-1</div>
+            </div>
+            <div class="grid-12">
+                <div class="placeholder">
+                    grid-12
+                    <div class="inner-row">
+                        <div class="grid-6">
+                            <div class="placeholder">
+                                grid-6
+                                <div class="inner-row">
+                                    <div class="grid-6">
+                                        <div class="placeholder">grid-6</div>
+                                    </div>
+                                    <div class="grid-6">
+                                        <div class="placeholder">grid-6</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-6">
+                            <div class="placeholder">
+                                grid-4
+                                <div class="inner-row">
+                                    <div class="grid-4">
+                                        <div class="placeholder">grid-4</div>
+                                    </div>
+                                    <div class="grid-4">
+                                        <div class="placeholder">grid-4</div>
+                                    </div>
+                                    <div class="grid-4">
+                                        <div class="placeholder">grid-4</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Lobster::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); 
+</script>
+</body>
+</html>
